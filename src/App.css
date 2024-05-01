@@ -1,0 +1,136 @@
+li{
+  list-style: none;
+}
+.edit-button {
+  background-color: #007bff; /* Set background color */
+  color: #fff; /* Set text color */
+  padding: 8px 16px; /* Set padding */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Add border radius */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: background-color 0.3s ease; /* Add transition effect */
+  margin-right: 10px;
+}
+
+.edit-button:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}
+.add-button {
+  background-color: #28a745; /* Set background color to green */
+  color: #fff; /* Set text color to white */
+  padding: 8px 16px; /* Set padding */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Add border radius */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: background-color 0.3s ease; /* Add transition effect */
+}
+
+.add-button:hover {
+  background-color: #218838; /* Darken background color on hover */
+}
+input {
+  border: none; /* Remove border */
+  outline: none; /* Remove outline */
+  padding: 8px 12px; /* Add padding */
+  border-radius: 4px; /* Add border radius */
+}
+/* Add button */
+.add-button {
+  background-color: #28a745; /* Green background */
+  color: #fff; /* White text color */
+  padding: 8px 16px; /* Padding */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  margin-right: 10px; /* Add margin to the right */
+}
+
+.add-button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+/* Delete button */
+.delete-button {
+  background-color: #dc3545; /* Red background */
+  color: #fff; /* White text color */
+  padding: 8px 16px; /* Padding */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  margin-right: 10px; /* Add margin to the right */
+}
+
+.delete-button:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+span {
+  margin-right: 50px; /* Add margin to the right */
+}
+li{
+  margin: 20px;
+}
+.todo-container {
+  background-color: #e6f7ff;/* Example background color */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow for depth */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow for depth */
+}
+
+/* Additional styling for the todo list items, buttons, etc. */
+.list-container {
+  background-color: #ffdce0;/* Light gray background color for list-container */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow for depth */
+}
+input[type="text"] {
+  margin-right: 10px; /* Adjust the value as needed */
+  /* Other styling properties */
+}
+form input[type="text"] {
+  margin-right: 10px; /* Adjust the value as needed */
+  font-size: 16px; /* Adjust the font size as needed */
+  /* Other styling properties */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button {
+  padding: 8px 16px; /* Adjust padding as needed */
+}
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+}
+
+form {
+  display: flex;
+  margin-bottom: 10px; /* Adjust margin between form and buttons */
+}
+
+button {
+  margin: 0 5px; /* Adjust margin between buttons */
+}
+li {
+  display: flex;
+  align-items: center; /* Center items vertically */
+}
+
+.edit-button, .delete-button {
+  margin-left: auto; /* Move edit and delete buttons to the right */
+}
+li span {
+  max-width: 300px; /* Adjust maximum width as needed */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Add ellipsis for overflow text */
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+.ggroup{
+  margin-top: 30px;
+}
